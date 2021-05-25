@@ -8,6 +8,9 @@ TagManager:
   - Bush
   - Grass
   - Seaweed
+  - Bullet
+  - Enemy
+  - Enviroment
   layers:
   - Default
   - TransparentFX

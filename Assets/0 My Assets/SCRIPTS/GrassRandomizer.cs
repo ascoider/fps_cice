@@ -13,7 +13,6 @@ public class GrassRandomizer : MonoBehaviour
         for (int i = 0; i < grassParts.Length; i++)
         {
             grassParts[i].Rotate(0, Random.Range(0, 360), 0);
-
             float scaleRandom = Random.Range(2f, 4f);
             grassParts[i].localScale *= scaleRandom;
 
